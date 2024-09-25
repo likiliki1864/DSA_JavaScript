@@ -1,0 +1,16 @@
+Stack:-
+*Stack is a linear data structure that follows the Last In First Out (LIFO) principle, meaning that the last element
+ added to the stack is the first one to be removed. 
+
+-> Features of a Stack:
+*LIFO Principle: The last element added to the stack is the first to be removed. This is analogous to a stack of plates
+ where you can only remove the top plate.
+
+->Basic Operations:
+
+    Push: Adding an element to the top of the stack.
+    Pop: Removing the element from the top of the stack and returning it.
+    Peek: Returning the element at the top of the stack without removing it.
+    isEmpty: Checking if the stack is empty.
+    Size: Returning the number of elements in the stack.
+   
