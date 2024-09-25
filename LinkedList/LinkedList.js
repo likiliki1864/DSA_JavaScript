@@ -199,22 +199,22 @@ aa.print();
 //Doubly LinkedList
 
 // Class representing a node in a doubly linked list
-class Node {
+/* class Node {
     constructor(data) {
         this.data = data;
         this.next = null;   // Points to the next node
         this.prev = null;   // Points to the previous node
     }
-}
+} */
 
-/* // Class representing a doubly linked list
+/*
 class DoublyLinkedList {
     constructor() {
-        this.head = null;  // Points to the first node in the list
-        this.tail = null;  // Points to the last node in the list
+        this.head = null;  // Points to the first node
+        this.tail = null;  // Points to the last
     }
 
-    // Insert a node at the end of the list
+    // Insert
     insert(data) {
         let newNode = new Node(data);
         
@@ -366,7 +366,7 @@ class CircularLinkedList {
         let temp = this.head;
         let prev = null;
 
-        // Case 1: Removing the head node (special case in a circular list)
+        // Case 1: Removing the head node
         if (temp.data == data) {
             // Find the last node
             let lastNode = this.head;
