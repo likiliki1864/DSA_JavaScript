@@ -1,0 +1,19 @@
+Time Complexity Types:
+
+->O(1) - Constant Time: The algorithm takes the same amount of time regardless of the input size.
+
+->O(n) - Linear Time: The time taken grows linearly with the input size (e.g., iterating through an array).
+
+->O(n²) - Quadratic Time: The time taken grows quadratically, often seen in nested loops (e.g., comparing all pairs).
+
+->O(log n) - Logarithmic Time: The time taken grows logarithmically, typically found in algorithms that divide the input size in half each iteration (e.g., binary search).
+
+->O(n log n) - Linearithmic Time: The time taken grows as a product of linear and logarithmic factors, common in efficient sorting algorithms (e.g., merge sort).
+
+Space Complexity Types:
+
+->O(1) - Constant Space: The algorithm uses a fixed amount of memory regardless of input size (e.g., using a few variables).
+
+->O(n) - Linear Space: The memory used grows linearly with the input size (e.g., creating a new array to store results).
+
+->O(n²) - Quadratic Space: The memory used grows quadratically, often seen in algorithms that require 2D structures (e.g., adjacency matrices in graph algorithms).
