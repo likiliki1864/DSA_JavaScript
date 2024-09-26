@@ -113,11 +113,42 @@ class ll{
     print(){
 
         let temp=this.head;
-        while(temp.next!=null){
+        while(temp!=null){
         console.log(temp.data);
         temp=temp.next;
         }
-        console.log(temp.data);
+    }
+
+    remove(val){
+
+        if(this.head==null){
+            console.log("List empty");
+            return;
+        }
+
+        if(this.head.data==val){
+            this.head=this.head.next;
+            return
+        }
+
+        let curr=this.head;
+        let prev=null;
+        
+        while(curr!=null){
+            
+            if(curr.data==val){
+                // console.log(val)
+                if(curr==this.head){
+                    this.head=this.head.next;
+                    return;
+                }
+
+                prev.next=curr.next;
+                return;
+            }
+            prev=curr;
+            curr=curr.next;
+        }
     }
 
 }
@@ -129,4 +160,61 @@ aa.insert(30);
 aa.insert(40);
 aa.insert(50);
 aa.print();
+console.log("=================")
+aa.remove(10);
+aa.print();
+console.log("=================")
+aa.remove(20);
+aa.print();
+console.log("================")
+// aa.remove(10);
+// aa.print();
+// console.log("================")
+aa.remove(40);
+aa.print();
+console.log("================")
+// aa.remove(50);
+// aa.print();
+// console.log("================")
+aa.remove(30);
+aa.print();
+console.log("================")
+aa.remove(50);
+aa.print();
+console.log("================")
+aa.remove(10);
+aa.print();
+console.log("================")
+// aa.print();
+// console.log("================")
+// aa.insert(11);
+// aa.print();
+// console.log("================")
+// aa.remove(10);
+// aa.print();
+// console.log("================")
+// aa.remove(11);
+// console.log("================")
+// aa.print();
+// // console.log("================")
+// // aa.remove(10);
+// console.log("================")
+// aa.print();
+// console.log("================")
+// aa.remove(30);
+// console.log("================")
+// aa.print();
+// console.log("================")
+// aa.insert(11);
+// aa.print();
+// console.log("================")
+// aa.remove(30);
+// aa.print();
+// console.log("================")
+// aa.print();
+// console.log("================")
+// aa.remove(11);
+// console.log("================")
+// aa.print();
+
 

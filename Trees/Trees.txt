@@ -1,0 +1,14 @@
+Binary Tree:-
+
+->A binary tree is a hierarchical data structure in which each node has at most two children,
+ referred to as the left child and the right child.
+
+Structure of a Binary Tree
+    ->Node: Each element in a binary tree is called a node.
+    ->Root: The topmost node of the tree is called the root.
+    ->Children: Nodes below the current node are called its children.
+    ->Parent: A node that has children is called the parent of its children.
+    ->Leaf Node: A node that has no children is called a leaf.
+    ->Subtree: Any node in the binary tree, along with its descendants, forms a subtree.
+
+    
